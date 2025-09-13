@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Secret Cleaning Society</title>
+<style>
+  /* Neon Yellow Theme */
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('scs.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffff00;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  nav {
+    background: #222;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  nav a {
+    color: #ffff00;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #ffeb3b;
+  }
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+  }
+  section {
+    background: rgba(17,17,17,0.85);
+    padding: 20px;
+    border-radius: 12px;
+    width: 20%;
+    height: 90%;
+    overflow-y: auto;
+    box-shadow: 0 0 10px #ffff00aa;
+  }
+  section::-webkit-scrollbar {
+    width: 6px;
+  }
+  section::-webkit-scrollbar-thumb {
+    background-color: #ffff00cc;
+    border-radius: 3px;
+  }
+  h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #ffff00;
+    padding-bottom: 8px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul li {
+    margin-bottom: 10px;
+  }
+  button {
+    background: #ffff00;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #ffeb3b;
+  }
+  footer {
+    background: #222;
+    color: #ffff00;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+  }
+  footer a {
+    color: #ffff00;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: #ffeb3b;
+  }
+  /* Responsive */
+  @media (max-width: 1000px) {
+    main {
+      flex-direction: column;
+      height: auto;
+    }
+    section {
+      width: 90%;
+      height: auto;
+    }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1FcjjwlQJF6-VL4TSiUu65R9FF5JbstGtIiBwu3Cqm4Y0TEZQYphJhedFiscbesny8egxc0-OK" target="_blank">Book Appointment</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSexlXvgF3q2B5FXo00vKIEbZxN2tldr0rLQEw3EHjrocyr0mQ/viewform" target="_blank">Apply</a>
+
+</nav>
+
+<main>
+  <section id="welcome">
+    <h2>Welcome</h2>
+    <p>Welcome to the S.C.S website. Please join us by helping us clean our school environment by applying to our committee. i like to say the n word on my brothers pc -lreyesmottTeachers, book an appointment with us today to get your room cleaned. <em>*All services are free and come with a special treat.</em></p>
+  </section>
+
+  <section id="about">
+    <h2>About the S.C.S Committee</h2>
+    <p>The S.C.S committee was co-founded and founded by Hanna, Marilena, Lucas, and Christian when we were in 6th grade. We made the committee to clean up our school environment both indoors and outdoors. We offer cleanings for Teachers' classrooms during our free periods, email us to find out when we are free. Thank you for all your support.
+       i also like to say the n word on my brothers pc-lreyesmott
+      
+    !</p>
+  </section>
+
+  <section id="what-we-do">
+    <h2>What We Do</h2>
+    <ul>
+      <li>Organize shelves</li>
+      <li>Sweep floors</li>
+      <li>Clean desks</li>
+      <li>Wash whiteboards</li>
+    </ul>
+  </section>
+
+  <section id="appointment">
+    <h2>Book an Appointment</h2>
+    <button onclick="window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1FcjjwlQJF6-VL4TSiUu65R9FF5JbstGtIiBwu3Cqm4Y0TEZQYphJhedFiscbesny8egxc0-OK', '_blank')">Press here for an appointment</button>
+  </section>
+
+  <section id="apply">
+    <h2>Apply to S.C.S today!</h2>
+    <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSexlXvgF3q2B5FXo00vKIEbZxN2tldr0rLQEw3EHjrocyr0mQ/viewform', '_blank')">Press here to apply</button>
+  </section>
+</main>
+
+<footer>
+  <p>Email Us: <a href="mailto:lreyesmott@branfordschols.org">lreyesmott@branfordschools.org</a></p> <a href="mailto:cbuckley@branfordschols.org">cbuckley@branfordschools.org</a></p>  <a href="mailto:hrink@branfordschols.org">hrink@branfordschools.org</a></p> <a href="mailto:mosbon@branfordschools.org" > mosbon@branfordschools.org</a> </p>
+</footer>
+
+</body>
+</html>
